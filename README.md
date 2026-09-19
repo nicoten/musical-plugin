@@ -28,18 +28,22 @@ Plugins are read by Cowork and Claude Code. They are not read by claude.ai
 **Chat** - upload the standalone skill there instead, from
 <https://musical.nicotejera.com/ai/skill.zip>.
 
-### ChatGPT desktop, and Codex
+### ChatGPT, and Codex
 
-Clone this repository somewhere permanent. Its
-`.agents/plugins/marketplace.json` makes it a local marketplace:
+Musical is in the ChatGPT plugin directory:
+
+<https://chatgpt.com/plugins/plugins_6aaf0c4ee1648191840a709e424ebb41>
+
+That covers ChatGPT on the web, mobile and the desktop app, and Codex. Invoke it
+with `@musical` in ChatGPT, or `$musical` in Codex. It also triggers on its own
+when a request matches music theory practice.
+
+To run an unreleased version, clone this repository instead: its
+`.agents/plugins/marketplace.json` makes the checkout a local marketplace.
 
 ```bash
 git clone https://github.com/nicoten/musical-plugin.git
 ```
-
-Then restart the ChatGPT desktop app. Invoke it with `@musical` in ChatGPT, or
-`$musical` in Codex. It also triggers on its own when a request matches music
-theory practice.
 
 ## Companion app
 
