@@ -27,11 +27,16 @@
         "developerName": "Nico Tejera",
         "category": "Education",
         "websiteURL": "https://musical.nicotejera.com",
+        "privacyPolicyURL": "https://musical.nicotejera.com/privacy",
+        "termsOfServiceURL": "https://musical.nicotejera.com/terms",
         "defaultPrompt": [
           "Use Musical to quiz me on intervals.",
           "Use Musical to drill me on chord spelling at an intermediate level.",
           "Use Musical to run a practice session on key signatures."
-        ]
+        ],
+        "brandColor": "#7c3aed",
+        "composerIcon": "./assets/icon.png",
+        "logo": "./assets/logo.png"
       }
     }
   }
