@@ -1,0 +1,38 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "musical",
+  "version": "0.1.0",
+  "description": "Interactive music theory teacher and practice coach. Chords, intervals, scales and modes, key signatures, rhythm and notation.",
+  "author": {
+    "name": "Nico Tejera",
+    "url": "https://github.com/nicoten"
+  },
+  "homepage": "https://musical.nicotejera.com/ai/",
+  "repository": "https://github.com/nicoten/musical-plugin",
+  "license": "MIT",
+  "keywords": [
+    "music",
+    "music-theory",
+    "education",
+    "practice",
+    "ear-training",
+    "notation"
+  ],
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "Musical",
+        "shortDescription": "Interactive music theory teaching and practice",
+        "longDescription": "A practice coach for music theory. Drills chords, intervals, scales and modes, key signatures, rhythm and notation. Practises rather than lectures, grades spelling strictly, adapts difficulty, and replies in the learner's own language.",
+        "developerName": "Nico Tejera",
+        "category": "Education",
+        "websiteURL": "https://musical.nicotejera.com",
+        "defaultPrompt": [
+          "Use Musical to quiz me on intervals.",
+          "Use Musical to drill me on chord spelling at an intermediate level.",
+          "Use Musical to run a practice session on key signatures."
+        ]
+      }
+    }
+  }
+}

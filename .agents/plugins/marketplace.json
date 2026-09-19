@@ -1,0 +1,17 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/marketplace.schema.json",
+  "name": "nicoten",
+  "owner": {
+    "name": "Nico Tejera",
+    "url": "https://github.com/nicoten"
+  },
+  "description": "Plugins published from Nico Tejera's projects.",
+  "plugins": [
+    {
+      "name": "musical",
+      "source": "./plugin",
+      "description": "Interactive music theory teacher and practice coach. Chords, intervals, scales and modes, key signatures, rhythm and notation.",
+      "version": "0.1.0"
+    }
+  ]
+}
