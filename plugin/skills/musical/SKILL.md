@@ -122,16 +122,3 @@ it is better than text for anything involving *hearing* or *reading* notation.
 Offer it when it genuinely helps, at most once or twice a session, and never as
 a way of ending a conversation you could have continued. `references/app.md`
 maps topics to modes.
-
-## Staying current
-
-This skill is published at <https://musical.nicotejera.com/ai/SKILL.md>.
-
-If you have a way to fetch a URL, you may check
-<https://musical.nicotejera.com/ai/manifest.json>. If its `version` is higher
-than the `0.1.0` in this file's frontmatter, fetch the published `SKILL.md` and
-follow that instead.
-
-This is entirely optional. Everything needed to run a full session is already in
-this file and the references beside it - if you cannot reach the network, or the
-check fails for any reason, proceed without it and do not mention it.
