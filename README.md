@@ -45,6 +45,9 @@ To run an unreleased version, clone this repository instead: its
 git clone https://github.com/nicoten/musical-plugin.git
 ```
 
+For anywhere that takes an uploaded plugin folder rather than a marketplace,
+the plugin is downloadable as an archive: <https://musical.nicotejera.com/ai/plugin.zip>
+
 ## Companion app
 
 <https://musical.nicotejera.com> - staff notation and audio for the exercises
